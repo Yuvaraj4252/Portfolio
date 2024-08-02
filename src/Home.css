@@ -1,0 +1,121 @@
+/* General styling */
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white; /* Set the text color to white for dark theme */
+}
+
+.container {
+    padding: 15px;
+}
+
+.profileContent {
+    width: 62vw;
+    max-width: 100%;
+}
+
+.imagesPlace {
+    width: 30vw;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: 100vh; /* Ensure full height for vertical centering */
+    margin-top: 30vh; /* Remove the margin-top */
+}
+
+.imgtag {
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.Name {
+    font-size: 40px;
+}
+
+.intro {
+    text-align: left;
+    font-size: 18px;
+}
+
+.h5 {
+    font-size: 24px;
+    text-align: left;
+}
+
+/* Dark-themed table styling */
+.experience-table-container {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #1e1e1e; /* Dark background color */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.experience-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.experience-table th,
+.experience-table td {
+    padding: 12px 15px;
+    border: 1px solid #444; /* Darker border color */
+    text-align: left;
+    color: white; /* Light text color */
+}
+
+.experience-table th {
+    background-color: #333; /* Dark header background color */
+}
+
+.experience-table tr:nth-child(even) {
+    background-color: #2c2c2c; /* Slightly lighter row color for even rows */
+}
+
+.experience-table tr:hover {
+    background-color: #444; /* Darker background on hover */
+}
+.links {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.link {
+    color: #61dafb;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .profileContent, .imagesPlace {
+        width: 100%;
+    }
+
+    .imagesPlace {
+        width: 100%; /* Full width on mobile */
+        height: auto; /* Auto height on mobile */
+        margin-top: 3vh; /* Add margin-top back for spacing */
+    }
+
+    .Name {
+        font-size: 32px;
+    }
+
+    .intro {
+        font-size: 16px;
+    }
+
+    .h5 {
+        font-size: 20px;
+    }
+}

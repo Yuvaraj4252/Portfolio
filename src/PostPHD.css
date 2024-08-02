@@ -1,0 +1,51 @@
+.postPhdContainer {
+    padding: 20px;
+    color: whitesmoke; /* Dark text color */
+  }
+  
+  .postPhdContainer h2 {
+    margin-bottom: 10px;
+    color: #007bff; /* Title color */
+  }
+  
+  .postPhdContainer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .postPhdContainer li {
+    margin-bottom: 5px;
+    line-height: 1.6;
+  }
+  
+  .experience-table-container {
+    margin-top: 20px;
+  }
+  
+  .experience-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .experience-table th,
+  .experience-table td {
+    padding: 12px 15px;
+    border: 1px solid #444; /* Darker border color */
+    text-align: left;
+  }
+  
+  .experience-table th {
+    background-color: #333; /* Dark header background color */
+    color: white;
+  }
+  
+  .experience-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Lighter row color for even rows */
+  }
+  
+  /* Remove the hover effect */
+  
+  ul li {
+    list-style: none; /* Ensure bullet points are removed */
+  }
+  

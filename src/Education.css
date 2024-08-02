@@ -1,0 +1,45 @@
+.tiles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    background-color: #2c2c2c;
+    color: black;
+    border: 1px solid whitesmoke;
+    width: 15vw; /* Adjusted width to better accommodate both tiles */
+    margin-left: auto; /* Center align */
+    margin-right: auto; /* Center align */
+    padding: 5px;
+  }
+  
+  .container {
+    padding: 30px;
+  }
+  
+  .tile {
+    padding: 10px 20px; /* Add some padding to make the tiles clickable */
+    cursor: pointer;
+    border-radius: 5px; /* Optional: Add some border radius for better look */
+  }
+  
+  .selected {
+    background-color: #007bff; /* Example selected background color */
+    color: white; /* Example selected text color */
+  }
+  @media (max-width: 768px) {
+    .tiles {
+      width: 100%; /* Full width for mobile screens */
+      flex-direction: column; /* Stack tiles vertically */
+      gap: 20px; /* Reduce gap between tiles */
+      padding: 10px; /* Add some padding for better spacing */
+    }
+  
+    .tile {
+      width: 100%; /* Full width for each tile */
+      text-align: center; /* Center text in each tile */
+      padding: 15px 0; /* Increase padding for better touch interaction */
+    }
+  }
+  

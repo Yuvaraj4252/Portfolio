@@ -1,0 +1,56 @@
+.pre-phd-container {
+    padding: 20px;
+  }
+  
+  .experience-table-container,
+  .courses-table-container {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #333; /* Dark background color */
+    border-radius: 10px;
+    max-width: 100%;
+    overflow-x: auto; /* Ensures table is scrollable on smaller screens */
+  }
+  
+  .experience-table,
+  .courses-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: whitesmoke; /* Text color */
+  }
+  
+  .experience-table th,
+  .experience-table td,
+  .courses-table th,
+  .courses-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #555; /* Border color for cells */
+  }
+  
+  .experience-table th,
+  .courses-table th {
+    background-color: #444; /* Header background color */
+    font-weight: bold;
+  }
+  
+  .experience-table tbody tr:nth-child(odd),
+  .courses-table tbody tr:nth-child(odd) {
+    background-color: #3a3a3a; /* Row color for odd rows */
+  }
+  
+  .experience-table tbody tr:nth-child(even),
+  .courses-table tbody tr:nth-child(even) {
+    background-color: #2a2a2a; /* Row color for even rows */
+  }
+  
+  .experience-table tbody tr:hover,
+  .courses-table tbody tr:hover {
+    background-color: #555; /* Hover effect for rows */
+  }
+  
+  h2 {
+    color: whitesmoke; /* Heading color */
+    margin-bottom: 20px;
+  }
+  

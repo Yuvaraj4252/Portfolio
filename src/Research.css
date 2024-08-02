@@ -1,0 +1,30 @@
+.research-container {
+    padding: 20px;
+    background-color: #2c2c2c; /* Dark background color */
+    border-radius: 10px;
+    max-width: 100%;
+    color: whitesmoke; /* Text color */
+  }
+  
+  h2 {
+    color: whitesmoke; /* Heading color */
+    margin-bottom: 20px;
+  }
+  
+  .research-list {
+    padding-left: 20px;
+    color: whitesmoke; /* List text color */
+    text-align: left; /* Align text to the left */
+    list-style-position: inside; /* List numbers/markers are inside the padding */
+  }
+  
+  .research-list li {
+    margin-bottom: 10px;
+  }
+  
+  /* Remove hover effects on lists */
+  .research-list li:hover {
+    background: none;
+    color: whitesmoke;
+  }
+  
