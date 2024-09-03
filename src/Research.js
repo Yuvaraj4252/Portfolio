@@ -62,6 +62,7 @@ const Research = () => {
         <li>Yuvaraj, T., K. Ravi, and K. R. Devabalaji. “DSTATCOM allocation in distribution networks considering load variations using bat algorithm”, Ain Shams Engineering Journal, 2015. Elsevier (Indexed by TR (SCI-E), Impact Factor-6 and SCOPUS).</li>
         <li>Devabalaji, K. R., T. Yuvaraj, and K. Ravi. “An efficient method for solving the optimal sitting and sizing problem of capacitor banks based on cuckoo search algorithm”, Ain Shams Engineering Journal (2016). Elsevier (Indexed by TR (SCI-E), Impact Factor-6 and SCOPUS).</li>
         <li>Yuvaraj, T., K. R. Devabalaji, and K. Ravi. “Optimal allocation of DG and DSTATCOM in radial distribution system using cuckoo search optimization algorithm”, Modelling and Simulation in Engineering, (2017), Hindawi (Indexed by TR (SCI-E), Impact Factor-3.2 and SCOPUS).</li>
+        <li>Singh, J., Anbuselvan, N., Yuvaraj, T., & Thiruchelvam, V. (2024, August). Improvement of power factor in radial distribution system by rider optimization algorithm compared with levy flight distribution algorithm by reducing the power loss. In AIP Conference Proceedings (Vol. 3161, No. 1). AIP Publishing.</li>
       </ol>
     </div>
   );
